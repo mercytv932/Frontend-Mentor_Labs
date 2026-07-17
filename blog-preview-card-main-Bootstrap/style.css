@@ -1,0 +1,59 @@
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f4d04e;
+  font-family: "Outfit", sans-serif;
+}
+
+.blog-card {
+  width: 384px;
+  min-height: 522px;
+  border-color: #111;
+  box-shadow: 8px 8px 0 #111;
+}
+
+.main-content {
+  width: 336px;
+}
+
+.learning-btn {
+  width: 29%;
+  background-color: #f4d04e;
+  color: #111;
+  border-radius: 4px;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.learning-btn:hover {
+  background-color: #f1d333;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.detail {
+  color: #6b6b6b;
+  line-height: 28px;
+}
+
+.greg img {
+  width: 32px;
+  height: 32px;
+}
+
+.greg p {
+  font-size: 15px;
+}
